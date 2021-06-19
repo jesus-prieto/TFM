@@ -24,7 +24,7 @@
     * **data**: Datos devueltos por **sampler_gen.R:**
     * **keyword**: Expresión lógica necesaria para identificar los nodos de los atributos en data. Por defecto "[1-9]|WOS"
     
-** Librerias necesarias
+## Librerias necesarias 
 * **dplyr** >= ‘1.0.6’
 * **multicool** >= ‘0.1.11’
 * **Rfast** >= ‘2.0.1’
