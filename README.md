@@ -23,5 +23,14 @@
 * **from_data_to_graph.R:** Función empleada para transformar los datos devueltos por **sampler_gen.R:** en el grafo, fruto de projectar el grafo bipartito sobre los atributos, en un tiempo razonable. Como entradas toma:
     * **data**: Datos devueltos por **sampler_gen.R:**
     * **keyword**: Expresión lógica necesaria para identificar los nodos de los atributos en data. Por defecto "[1-9]|WOS"
+    
+** Librerias necesarias
+* **dplyr** >= ‘1.0.6’
+* **multicool** >= ‘0.1.11’
+* **Rfast** >= ‘2.0.1’
+* **Rcpp** >= ‘1.0.2’
+* **igraph** >= ‘1.2.4.2’
+* **stringr** >= ‘1.4.0’
+* **RcppProgress** >= ‘0.4.2’
 
     
